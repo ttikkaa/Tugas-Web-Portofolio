@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portofolio Tika</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Portofolio TIKA</h1>
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#home" tabindex="0">Home</a></li>
+      <li><a href="#about" tabindex="0">About Me</a></li>
+      <li><a href="#resume" tabindex="0">Resume</a></li>
+      <li><a href="#skill" tabindex="0">Skill</a></li>
+      <li><a href="#projects" tabindex="0">Project</a></li>
+      <li><a href="#contact" tabindex="0">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="theme-toggle" role="switch" aria-label="Toggle light and dark mode" aria-checked="false" title="Toggle light and dark mode" tabindex="0">🌙</button>
+</header>
+<main>
+  <section id="home" aria-label="Home section">
+    <h1>Hello, I'm <span id="typed-text"></span></h1>
+    <p>Front-End Developer | UI/UX Enthusiast | Creative Coder</p>
+    <a class="btn" href="#contact">Get In Touch</a>
+  </section>
+
+  <section id="about" aria-label="About Me section">
+    <img src="assets/" alt="Portrait of Your Name" />
+    <div>
+      <h2>About Me</h2>
+      <p>
+       <p>Nama: Tika Aulia</p>
+                    <p>Tempat, Tanggal Lahir: Luwuk, 18 Maret 2006</p>
+                    <p>Usia: 19 tahun</p>
+                    <p>Jenis Kelamin: Perempuan</p>
+                    <p>Alamat: Jl. Pisang Agung No. 36, Sukun, Malang</p>
+      </p>
+      <p>
+        I thrive in collaborative environments and love converting ideas into reality using modern technologies.
+      </p>
+    </div>
+  </section>
+
+ <section id="resume">
+  <h2>Resume</h2>
+  <ul>
+    <li>
+      <h3>MIN 1 BANGGAI</h3>
+      <p>2011 - 2017</p>
+    </li>
+    <li>
+      <h3>MTS DDI MIDARUUL ULUM KILONGAN</h3>
+      <p>2017 - 2020</p>
+    </li>
+    <li>
+      <h3>SMK NEGERI 1 LUWUK</h3>
+      <p>2020 - 2023</p>
+    </li>
+  </ul>
+</section>
+
+  <section id="skill" aria-label="Skills section">
+    <h2>My Skills</h2>
+    <ul>
+      <li>
+        <span>HTML5 &amp; CSS3</span>
+        <div class="skill-bar" style="--width: 85%">
+          <div style="width: 0;" data-width="85%"></div>
+        </div>
+      </li>
+      <li>
+        <span>JavaScript &amp; ES6+</span>
+        <div class="skill-bar" style="--width: 75%">
+          <div style="width: 0;" data-width="75%"></div>
+        </div>
+      </li>
+      <li>
+        <span>React.js</span>
+        <div class="skill-bar" style="--width: 65%">
+          <div style="width: 0;" data-width="65%"></div>
+        </div>
+      </li>
+      <li>
+        <span>UI/UX Design</span>
+        <div class="skill-bar" style="--width: 80%">
+          <div style="width: 0;" data-width="80%"></div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects" aria-label="Project section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project" tabindex="0" aria-label="Project One">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=80" alt="Screenshot of project One" />
+        <div class="project-info">
+          <h4>CRUD</h4>
+          <p>Tugas uas saya pada semester 2 yaitu pembuatan website yang mempunyai sistem CRUD</p>
+          <a href="https://github.com/ttikkaa/UAS_CRUD" target="_blank" class="project-link">Lihat Project -></a>
+        </div>
+      </article>
+      <article class="project" tabindex="0" aria-label="Project Two">
+        <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=80" alt="Screenshot of project Two" />
+        <div class="project-info">
+          <h4>BMI Calculator</h4>
+          <p>Tugas uas saya pada semester 1 yaitu membuat aplikasi BMI Calculator menggunakan java</p>
+          <a href="https://github.com/ttikkaa/BMI-Calculator" target="_blank" class="project-link">Lihat Project -></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" aria-label="Contact section">
+    <h2>Contact Me</h2>
+    <div class="contact-grid">
+      <a class="contact-item" href="https://mail.google.com/mail/?view=cm&to=tikakkv@gmail.com" aria-label="Send email to tikakkv@gmail.com" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-10 7L2 8V6l10 7 10-7Z"/></svg>
+        <span>Email</span>
+      </a>
+      <a class="contact-item" href="https://www.instagram.com/tew_kaaa/" target="_blank" rel="noopener noreferrer" aria-label="DM Instagram yourusername" tabindex="0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6a3 3 0 0 0 0-6Z"/></svg>
+        <span>Instagram</span>
+      </a>
+      <a class="contact-item" href="https://wa.me/+6285823190578" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" tabindex="0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382a6.667 6.667 0 0 1-3.572 1.16c-3.623 0-6.567-2.945-6.567-6.567a6.54 6.54 0 0 1 1.162-3.577l-1.184-4.29 4.392 1.15a6.653 6.653 0 0 1 4.768-1.17c3.62 0 6.565 2.942 6.565 6.565a6.607 6.607 0 0 1-6.564 6.565Zm-4.31-8.356a.561.561 0 0 0-.398.185l-.852.945a.52.52 0 0 0-.148.425c.023.575.179 1.134.466 1.644.06.118.049.265-.027.375l-.762 1.012a.573.573 0 0 0 .538.86c.31 0 .602-.1.831-.277l.852-.945a.528.528 0 0 0 .148-.426c-.022-.575-.18-1.134-.466-1.645a.362.362 0 0 0 .027-.376l.763-1.012a.57.57 0 0 0-.539-.859Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; Tika
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
