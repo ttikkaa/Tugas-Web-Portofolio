@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Portofolio Tika</title>
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 <header>
@@ -28,91 +31,129 @@
     <a class="btn" href="#contact">Get In Touch</a>
   </section>
 
-<section id="about" aria-label="About Me section" style="display: flex; align-items: flex-start; gap: 15px;">
-  <img src="assets/Profil.jpg" alt="Foto Profil Tika Aulia" style="width: 60px; height: auto; border-radius: 8px;" />
-  <div>
-    <h2>About Me</h2>
-    <p>Nama: Tika Aulia</p>
-    <p>Tempat, Tanggal Lahir: Luwuk, 18 Maret 2006</p>
-    <p>Usia: 19 tahun</p>
-    <p>Jenis Kelamin: Perempuan</p>
-    <p>Alamat: Jl. Pisang Agung No. 36, Sukun, Malang</p>
-    <p>
-      I thrive in collaborative environments and love converting ideas into reality using modern technologies.
-    </p>
-  </div>
-</section>
+  <section id="about" aria-label="About Me section" style="display: flex; align-items: flex-start; gap: 15px;">
+    <img src="assets/Profil.jpg" alt="Foto Profil Tika Aulia" style="width: 60px; height: auto; border-radius: 8px;" />
+    <div>
+      <h2>About Me</h2>
+      <p>Nama: Tika Aulia</p>
+      <p>Tempat, Tanggal Lahir: Luwuk, 08 Maret 2006</p>
+      <p>Usia: 19 tahun</p>
+      <p>Jenis Kelamin: Perempuan</p>
+      <p>Alamat: Jl. Pisang Agung No. 36, Sukun, Malang</p>
+      <p>
+        I thrive in collaborative environments and love converting ideas into reality using modern technologies.
+      </p>
+    </div>
+  </section>
 
-
- <section id="resume">
-  <h2>Resume</h2>
-  <ul>
-    <li>
-      <h3>MIN 1 BANGGAI</h3>
-      <p>2011 - 2017</p>
-    </li>
-    <li>
-      <h3>MTS DDI MIDARUUL ULUM KILONGAN</h3>
-      <p>2017 - 2020</p>
-    </li>
-    <li>
-      <h3>SMK NEGERI 1 LUWUK</h3>
-      <p>2020 - 2023</p>
-    </li>
-  </ul>
-</section>
-
-  <section id="skill" aria-label="Skills section">
-    <h2>My Skills</h2>
-    <ul>
+  <section id="resume">
+    <h2>Resume</h2>
+    <ul class="resume-list">
       <li>
-        <span>HTML5 &amp; CSS3</span>
-        <div class="skill-bar" style="--width: 85%">
-          <div style="width: 0;" data-width="85%"></div>
+        <div class="resume-icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <div class="resume-content">
+          <h3>MIN 1 BANGGAI</h3>
+          <p class="resume-period">2011 - 2017</p>
+          <p class="resume-description">Elementary School</p>
         </div>
       </li>
       <li>
-        <span>JavaScript &amp; ES6+</span>
-        <div class="skill-bar" style="--width: 75%">
-          <div style="width: 0;" data-width="75%"></div>
+        <div class="resume-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="resume-content">
+          <h3>MTS DDI MIDARUUL ULUM KILONGAN</h3>
+          <p class="resume-period">2017 - 2020</p>
+          <p class="resume-description">Junior High School</p>
         </div>
       </li>
       <li>
-        <span>React.js</span>
-        <div class="skill-bar" style="--width: 65%">
-          <div style="width: 0;" data-width="65%"></div>
+        <div class="resume-icon">
+          <i class="fas fa-laptop-code"></i>
         </div>
-      </li>
-      <li>
-        <span>UI/UX Design</span>
-        <div class="skill-bar" style="--width: 80%">
-          <div style="width: 0;" data-width="80%"></div>
+        <div class="resume-content">
+          <h3>SMK NEGERI 1 LUWUK</h3>
+          <p class="resume-period">2020 - 2023</p>
+          <p class="resume-description">Vocational High School - Office Automation and Governance (Otomatisasi Tata Kelola Perkantoran)</p>
         </div>
       </li>
     </ul>
   </section>
 
-  <section id="projects" aria-label="Project section">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <article class="project" tabindex="0" aria-label="Project One">
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=80" alt="Screenshot of project One" />
-        <div class="project-info">
-          <h4>CRUD</h4>
-          <p>Tugas uas saya pada semester 2 yaitu pembuatan website yang mempunyai sistem CRUD</p>
-          <a href="https://github.com/ttikkaa/UAS_CRUD" target="_blank" class="project-link">Lihat Project -></a>
-        </div>
-      </article>
-      <article class="project" tabindex="0" aria-label="Project Two">
-        <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=80" alt="Screenshot of project Two" />
-        <div class="project-info">
-          <h4>BMI Calculator</h4>
-          <p>Tugas uas saya pada semester 1 yaitu membuat aplikasi BMI Calculator menggunakan java</p>
-          <a href="https://github.com/ttikkaa/BMI-Calculator" target="_blank" class="project-link">Lihat Project -></a>
-        </div>
-      </article>
+<section id="skills" aria-label="Skills section">
+  <h2><i class="fas fa-code"></i> MY SKILLS</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <span>HTML5</span>
     </div>
-  </section>
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <span>CSS3</span>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-react"></i>
+      <span>React.js</span>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-paint-brush"></i>
+      <span>UI/UX Design</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects" aria-label="My Projects">
+  <h2><i class="fas fa-laptop-code"></i> MY PROJECTS</h2>
+  
+  <div class="project-grid">
+    <!-- CRUD Application -->
+    <article class="project-card">
+      <div class="project-content">
+        <div class="project-header">
+          <i class="fas fa-database"></i>
+          <h3>CRUD Application</h3>
+        </div>
+        <p class="project-description">Tugas uas saya pada semester 2 yaitu pembuatan website yang mempunyai sistem CRUD</p>
+        <div class="tech-stack">
+          <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+          <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+        <div class="project-footer">
+          <a href="https://github.com/ttikkaa/UAS_CRUD" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- BMI Calculator -->
+    <article class="project-card">
+      <div class="project-content">
+        <div class="project-header">
+          <i class="fas fa-calculator"></i>
+          <h3>BMI Calculator</h3>
+        </div>
+        <p class="project-description">Tugas uas saya pada semester 1 yaitu membuat aplikasi BMI Calculator menggunakan java</p>
+        <div class="tech-stack">
+          <span class="tech-tag"><i class="fab fa-java"></i> Java</span>
+          <span class="tech-tag"><i class="fas fa-window-maximize"></i> Swing</span>
+        </div>
+        <div class="project-footer">
+          <a href="https://github.com/ttikkaa/BMI-Calculator" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
 
   <section id="contact" aria-label="Contact section">
     <h2>Contact Me</h2>
@@ -140,4 +181,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
